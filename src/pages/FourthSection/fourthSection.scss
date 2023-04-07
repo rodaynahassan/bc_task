@@ -1,0 +1,90 @@
+.form-title {
+  font-size: calc(0.2em + 1vw);
+  font-weight: 400;
+  line-height: 38px;
+  color: #21436e;
+  font-family: sharpSansMedium;
+  line-height: 29px;
+  width: 300pt;
+  text-align: left;
+}
+
+.fourth-container {
+  flex: none !important;
+}
+
+.floating-label-style {
+  font-family: sharpSansMedium;
+  font-style: italic;
+  font-size: calc(0.1em + 1vw);
+  color: #21436e;
+}
+
+.missing-field {
+  font-family: sharpSansMedium;
+  font-style: italic;
+  font-size: calc(0.1em + 1vw);
+  color: red;
+}
+.agreement {
+  font-family: sharpSansBook;
+  font-size: calc(0.1em + 1vw);
+  color: #21436e;
+}
+
+.submit-form {
+  background-color: #21436e;
+  color: white;
+  font-family: shanti;
+  border: 1px solid #21436e;
+  text-transform: uppercase;
+  font-size: calc(0.1em + 1vw);
+  letter-spacing: 0.3px;
+  width: "221px";
+  height: "50px";
+  text-align: center;
+}
+
+.alert-message {
+  font-size: calc(0.02em + 1vw);
+  color: red;
+  padding-top: 10px;
+  padding-left: 15px;
+  font-family: sharpSansMedium;
+}
+
+.field-title {
+  font-family: diodrumArabic;
+  color: #21436e;
+  font-weight: 600;
+}
+
+.field-value {
+  font-family: sharpSansMedium;
+  color: #21436e;
+  font-style: italic;
+  overflow-wrap: break-word;
+}
+
+.cancel-form {
+  background-color: #efefef;
+  color: #21436e;
+  font-family: shanti;
+  border: 1px solid #efefef;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 0.3px;
+  width: "221px";
+  height: "50px";
+  text-align: center;
+}
+
+.feedback {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 38px;
+  color: #21436e;
+  font-family: sharpSansMedium;
+  line-height: 29px;
+  text-align: center;
+}

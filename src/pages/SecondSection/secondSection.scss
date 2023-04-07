@@ -1,0 +1,45 @@
+.place {
+  font-weight: 400;
+  font-size: calc(3em + 1vw);
+  color: #ffffff;
+  font-family: "diodrumArabic";
+  text-align: left;
+  margin-left: 1rem;
+  white-space: nowrap;
+}
+
+.home {
+  font-weight: 600;
+  font-size: calc(3em + 1vw);
+  color: #ffffff;
+  font-family: "diodrumArabic";
+  text-align: left;
+  margin-left: 1rem;
+  margin-top: -2rem;
+  white-space: nowrap;
+}
+
+.description {
+  font-size: calc(0.3em + 1vw);
+  font-weight: 300;
+  line-height: 38px;
+  color: white;
+  font-family: "sharpSansMedium";
+  line-height: 36px;
+  width: 412.51pt;
+  text-align: left;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+.button-group {
+  width: 10rem;
+  height: 2.5rem;
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 1px solid #ffffff;
+  text-transform: uppercase;
+  font-family: "shanti";
+  font-size: calc(0.8vw);
+  margin-top: 1rem;
+}
