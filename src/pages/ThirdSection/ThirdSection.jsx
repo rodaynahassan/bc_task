@@ -224,7 +224,7 @@ export default function ThirdSection() {
             </Col>
           </Row>
         </Col>
-        <Col>
+        <Col xs={5}>
           <div>
             <Fade duration={3000}>
               <Carousel

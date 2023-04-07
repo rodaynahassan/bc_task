@@ -43,6 +43,7 @@ export default function FourthSection() {
       />
       <Row className="gx-0 px-0">
         <Col
+          // xs={5}
           className="g-0 p-0"
           style={{
             backgroundImage: `url(${FormPic})`,
@@ -50,7 +51,7 @@ export default function FourthSection() {
             backgroundRepeat: "no-repeat",
           }}
         ></Col>
-        <Col xs={7} className="py-4">
+        <Col className="py-4 gx-0 px-0">
           <Fade duration={3000} triggerOnce>
             <p className="form-title">
               {" "}
@@ -83,7 +84,9 @@ export default function FourthSection() {
                   Your name
                 </label>
                 {errors?.name && (
-                  <p className="alert-message">{errors?.name?.message}</p>
+                  <Fade triggerOnce>
+                    <p className="alert-message">{errors?.name?.message}</p>
+                  </Fade>
                 )}
               </Form.Floating>
             </Fade>
@@ -107,7 +110,9 @@ export default function FourthSection() {
                   Email ID
                 </label>
                 {errors?.email && (
-                  <p className="alert-message">{errors?.email?.message}</p>
+                  <Fade triggerOnce>
+                    <p className="alert-message">{errors?.email?.message}</p>
+                  </Fade>
                 )}
               </Form.Floating>
             </Fade>
@@ -133,7 +138,9 @@ export default function FourthSection() {
                   Phone Number
                 </label>
                 {errors?.phone && (
-                  <p className="alert-message">{errors?.phone?.message}</p>
+                  <Fade triggerOnce>
+                    <p className="alert-message">{errors?.phone?.message}</p>
+                  </Fade>
                 )}
               </Form.Floating>
             </Fade>
@@ -155,7 +162,9 @@ export default function FourthSection() {
                   Choose your budget
                 </label>
                 {errors?.budget && (
-                  <p className="alert-message">{errors?.budget?.message}</p>
+                  <Fade triggerOnce>
+                    <p className="alert-message">{errors?.budget?.message}</p>
+                  </Fade>
                 )}
               </Form.Floating>
             </Fade>
@@ -175,7 +184,9 @@ export default function FourthSection() {
                   Enter your message
                 </label>
                 {errors?.message && (
-                  <p className="alert-message">{errors?.message?.message}</p>
+                  <Fade triggerOnce>
+                    <p className="alert-message">{errors?.message?.message}</p>
+                  </Fade>
                 )}
               </Form.Floating>
             </Fade>
@@ -191,7 +202,11 @@ export default function FourthSection() {
                   })}
                 />
                 {errors?.agreement && (
-                  <p className="alert-message">{errors?.agreement?.message}</p>
+                  <Fade triggerOnce>
+                    <p className="alert-message">
+                      {errors?.agreement?.message}
+                    </p>
+                  </Fade>
                 )}
               </Form.Group>
             </Fade>
